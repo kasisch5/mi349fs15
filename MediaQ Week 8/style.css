@@ -1,0 +1,71 @@
+body {
+	background: #CCEBEB;
+}
+
+#bodyheader {
+    text-align:center;
+	background-color:grey;
+    color:yellow;
+}
+
+#area1 {
+    width:400px;
+	float:left;
+	text-align:center;
+}
+
+#area2 {
+	width:400px;
+	float:left;
+	text-align:center;
+}
+
+#area3 {
+	width:400px;
+	float:left;
+	text-align:center;
+}
+
+h1 {
+text-align:center;
+}
+
+h2 {
+text-align:center;
+}
+
+@media screen and (min-width:0px) and (max-width:799px){
+	#area1{
+	display:normal;
+	}
+	#area2 {
+	display:none;
+	}
+	#area3 {
+	display:none;
+	}
+}
+
+@media screen and (min-width:800px) and (max-width:1199px){
+	#area1{
+	display:normal;
+	}
+	#area2 {
+	display:normal;
+	}
+	#area3 {
+	display:none;
+	}
+}
+
+@media screen and (min-width:1200px){
+	#area1{
+	display:normal;
+	}
+	#area2 {
+	display:normal;
+	}
+	#area3 {
+	display:normal;
+	}
+}
